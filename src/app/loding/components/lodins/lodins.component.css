@@ -1,0 +1,57 @@
+ 
+ body{
+    background: #202a32;
+    font-family: Arial;
+    background: #202a32;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    margin-top: -1%;
+    margin-left: -0.20%;
+   }
+   form{
+    width: 450px;
+    height: 430px;
+    border:3px solid #00baff;
+    border-radius: 20px;
+    margin: 50px auto;
+   }
+   h1{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+   }
+   input[type="text"] , [type="password"]{
+    width: 300px;
+    height: 60px;
+    margin-bottom: 20px;
+    margin-left: 45px;
+    border: 1px solid #00baff;
+    border-radius: 10px;
+    outline: none;
+   }
+  
+  input[type="checfbox"]:after{
+  content: "Remember me";
+  color:#fff;
+  line-height: 1;
+  position: absolute;
+  left: 560px;
+  }
+  input[type="checkbox"]{
+    margin: 15px 0 20px 80px;
+  }
+   input[type="submit"]{
+    width: 150px;
+    height: 60px;
+    margin-left: 130px;
+    border:3px solid #00baff;
+    border-radius:10px ;
+    color: #00baff;
+    font-size: 30px;
+    outline: none;
+  
+   }
+   .container{
+    color: white;
+   }
